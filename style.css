@@ -11,6 +11,12 @@ body {
   text-align: center;
 }
 
+/* Commit 1 – keep originals, add btn style */
+#color-input {
+  padding: .5em;
+  width: 200px
+}
+
 #color-input {
   padding: 0.5em;
   width: 200px;
