@@ -33,6 +33,10 @@ body {
   border-color: #666
 }
 
+#apply-btn:active {
+  transform: scale(.98)
+}
+
 #box {
   margin-top: 1em;
   width: 150px;
