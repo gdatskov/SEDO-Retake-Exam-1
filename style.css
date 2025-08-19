@@ -17,15 +17,18 @@ body {
   width: 200px
 }
 
-#color-input {
-  padding: 0.5em;
-  width: 200px;
+#apply-btn,
+#random-btn {
+  padding: .5em 1em;
+  margin-left: .5em;
+  cursor: pointer
 }
 
-#apply-btn {
-  padding: 0.5em 1em;
-  margin-left: 0.5em;
-  cursor: pointer;
+/* Commit 2 – hover shades */
+#apply-btn:hover,
+#random-btn:hover {
+  background: #eee;
+  border-color: #666
 }
 
 #box {
