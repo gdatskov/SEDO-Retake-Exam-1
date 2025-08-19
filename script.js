@@ -9,7 +9,9 @@ function validatePickedColor() {
   return true;
 }
 
-// Commit 3 – wire random button
 document.getElementById('random-btn').addEventListener('click',function(){
   setBox(randomHex());
+});
+document.getElementById('color-input').addEventListener('change', function () {
+  document.getElementById('box').style.backgroundColor = this.value;
 });
