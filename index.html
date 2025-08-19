@@ -11,11 +11,13 @@
   <div class="app">
     <h1>Color Changer</h1>
 
-    <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
+    <input id="color-input" type="color" value="#dddddd" aria-label="Pick a color">
     <button id="apply-btn">Apply Color</button>
     <button id="random-btn">Random Color</button>
 
     <button hidden aria-hidden="true" id="rnd-spacer" title="Commit 2 placeholder"></button>
+    <span hidden title="Commit 2 placeholder"></span>
+    <small class="ver">input bug fixed</small>
 
     <p class="rand-hint">Tip: click “Random Color”.</p>
 
